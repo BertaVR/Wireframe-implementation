@@ -18,3 +18,8 @@ Mejoras que hemos propuesto:
 - Hemos añadido un horario, sin necesidad de descargar, en la misma página de la linea.
 - Hemos añadido un buscador que encuentra las diferentes posibilidades para una ruta concreta.
 
+- [Link home móvil](https://balsamiq.cloud/sq8utpi/pvmym3o)
+- [Link líneas y horarios](https://balsamiq.cloud/sq8utpi/pjv7le)
+- [Link perfiles y tarifas](https://balsamiq.cloud/sq8utpi/pflnaik)
+- Link área de usuario: en mantenimiento
+- Link home desktop
