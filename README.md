@@ -2,21 +2,24 @@
 
 
 Mayores problemas a solucionar:
-- Mucho *ruido y sobracargada*, hace que el contenido no sea claro.
-- *Iconos difíciles de distinguir* entre ellos.
-- El contenido está muy *junto y acoplado*.
-- Menús con demasiado contenido.
-- Filtros de busqueda confusos.
-- Horario poco accesible, obliga a descargar.
-- Difícil buscar una ruta concreta.
+- Mucho *ruido y sobracargada*, hace que el contenido no sea claro. 11 21
+- *Iconos difíciles de distinguir* entre ellos. 24 46
+- El contenido está muy *junto y acoplado*. 13 24 25
+- Menús con demasiado contenido. 24
+- Filtros de busqueda confusos(se repiten varias paradas con el mismo nombre). 32 41
+- Horario poco accesible, hay que realizar muchos clicks para acceder al horario y obliga a descargar. 34 43
+- Difícil buscar una ruta concreta. 43
+- Saltos de linea de los autobuses poco intuitivos.(sistema de tarifas) 34 41 54
 
 Mejoras que hemos propuesto:
-- Hemos simplicado la home, poniendo lo más importante en esta.
-- Hemos personalizado más los iconos, para que sean fáciles de distinguir.
-- Hemos estandarizado más la página(footer, cabecera)
-- Hemos desacoplado el contenido para que fuera más legible, además hemos hecho que el menú sea desplegable por secciones.
-- Hemos añadido un horario, sin necesidad de descargar, en la misma página de la linea.
-- Hemos añadido un buscador que encuentra las diferentes posibilidades para una ruta concreta.
+- Hemos simplicado la home, poniendo lo más importante en esta. 24 51
+- Hemos personalizado más los iconos, para que sean fáciles de distinguir. 24 46
+- Hemos estandarizado más la página(footer, cabecera). 41 42 43 44
+- Hemos desacoplado el contenido para que fuera más legible, además hemos hecho que el menú sea desplegable por secciones. 13 24 25
+- Hemos añadido un horario, sin necesidad de descargar, en la misma página de la linea. Además ahora es más accesible. 34 43
+- Hemos añadido un buscador que encuentra las diferentes posibilidades para una ruta concreta.43
+- Hemos añadido un mapa explicativo de los saltos de lineas de los autobuses. 34 41 54
+- Hemos repetidos contenidos para que el usuario pueda entrar de varias formas. 52
 
  [Link home móvil](https://balsamiq.cloud/sq8utpi/pvmym3o)  
  [Link líneas y horarios](https://balsamiq.cloud/sq8utpi/pjv7le)  
