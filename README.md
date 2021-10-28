@@ -21,6 +21,15 @@ Mejoras que hemos propuesto:
 - Hemos añadido un mapa explicativo de los saltos de lineas de los autobuses. 34 41 54
 - Hemos repetidos contenidos para que el usuario pueda entrar de varias formas. 52
 
+# Webgrafía
+
+Hemos consultado:  
+-[EMT Palma](http://www.emtpalma.cat/ca/inici) 
+-[Crtm Madrid](https://www.crtm.es/) 
+-[EMT Valencia](https://www.emtvalencia.es/ciudadano/index.php)
+-[EMT Madrid](https://www.emtmadrid.es/Home)
+-* Nota: El mapa de saltos de línea lo hemos cogido de [TMB Barcelona](https://www.tmb.cat/es/tarifas-metro-bus-barcelona/sencillos-e-integrados/mapa-zonas)
+
  [Link home móvil](https://balsamiq.cloud/sq8utpi/pvmym3o)  
  [Link líneas y horarios](https://balsamiq.cloud/sq8utpi/pjv7le)  
  [Link perfiles y tarifas](https://balsamiq.cloud/sq8utpi/pflnaik)  
