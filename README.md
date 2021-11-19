@@ -11,6 +11,7 @@ Mayores problemas a solucionar:
 - Difícil buscar una ruta concreta. 43
 - Saltos de linea de los autobuses poco intuitivos.(sistema de tarifas) 34 41 54
 
+
 Mejoras que hemos propuesto:
 - Hemos simplicado la home, poniendo lo más importante en esta. 24 51
 - Hemos personalizado más los iconos, para que sean fáciles de distinguir. 24 46
