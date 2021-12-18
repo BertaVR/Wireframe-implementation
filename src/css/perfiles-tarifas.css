@@ -146,13 +146,15 @@ div.icono {
   max-width: 95vw;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: space-between;
 }
 .mapa-saltos h2 {
   font-size: 20pt;
-  text-align: center;
 }
 img#saltos {
   width: 90%;
-  align-self: center;
 }
+.mapa-saltos span {
+    font-size: medium;
+  }
