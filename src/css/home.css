@@ -76,6 +76,9 @@ i#menu {
 }
 
 .item3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   grid-column: 1 / 2;
   margin: 10px;
 }
@@ -87,6 +90,9 @@ i#menu {
 }
 
 .item5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   grid-column: 1 / 2;
   margin: 10px;
 }
@@ -102,4 +108,11 @@ footer {
 
 }
 
-
+.centerIcon div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+    height:120px;
+    width: 120px;
+}
