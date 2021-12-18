@@ -1,0 +1,112 @@
+.grid1 {
+    margin: 0px;
+    border: 2px solid #ccc;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 2.5fr 1fr 1fr 1fr;
+    align-content: space-around;
+    justify-content: space-around;
+    min-height: 100vh;
+  }
+  
+  .grid2 {
+    margin: 0px;
+    border: 2px solid #ccc;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows:1fr 1fr 1fr;
+    align-content: space-around;
+    justify-content: space-around;
+    min-height: 100vh;
+  }
+
+  .box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+  }
+  
+  .item1 {
+    display: grid;
+    grid-column: 1 / 3;
+    grid-template-rows: 25px 4fr 1fr 1fr;
+    padding: 0%;
+  }
+  
+  .item1 #barra_superior {
+    height: 25px;
+    display: flex;
+    background-color: rgb(224, 223, 119);
+    margin: 0%;
+    justify-content: space-between;
+    align-items: top;
+  }
+  .derecha {
+    margin: 0;
+    /* display: flex;
+    justify-self: flex-end; */
+  }
+  .world {
+    padding-top: 12px;
+    /* display: flex;
+    justify-self: flex-end; */
+  }
+  
+  .titulo {
+    width: 100%;
+    /* display: flex;
+      justify-self: flex-end; */
+  }
+  div#logo {
+    display: flex;
+    size: 20vw;
+    height: 20vh;
+    justify-content: space-between;
+  }
+  #logo img {
+    display: flex;
+  }
+  i#menu {
+  
+    font-size: 50px;
+    color: rgb(175, 185, 195);
+    padding-right: 16px;
+    padding-top: 10px;
+  }
+  .item2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-column: 1 / 3;
+  }
+  .item3 {
+    grid-row: 3/5;
+    grid-column: 1 / 2;
+  }
+  .item4 {
+    display:flex;
+    grid-column: 2 / 3;
+    grid-row: 3/5;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+
+
+  }
+  .item5 {
+    grid-column: 1/ 2;
+
+  }
+  .item6 {
+    grid-column: 2/ 3;
+    grid-row: 1/ 3;
+  }
+  .item7 {
+    grid-column: 1/ 2;
+
+  }
+  .item8 {
+    grid-column: 1/ 3;
+  }
