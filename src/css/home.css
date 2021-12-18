@@ -43,10 +43,6 @@ body {
   justify-self: flex-end; */
 }
 
-.item1 #header {
-  grid-row: 10fr;
-}
-
 .titulo {
   width: 100%;
   /* display: flex;
