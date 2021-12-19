@@ -1,64 +1,107 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title><Home</title>
-    <meta name="description" content="Area de Usuario" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="./css/lineas-trayectos.css" />
-    <script
-      src="https://kit.fontawesome.com/f995a94cf6.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <div class="grid1">
-      <div class="box item1 menuCSS3">
-        <div id="barra_superior">
-          <div class="izquierda">
-            <img id="user" src=img/user.png height="20px">
-            <span> <a href="#"> Área de Usuario</a></span>
-          </div>
-          <div class="derecha">
-            <img id="world" src=img/world.png height="20px">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title><Home</title>
+<meta name="description" content="Area de Usuario" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="./css/lineas-trayectos.css" />
+<script
+src="https://kit.fontawesome.com/f995a94cf6.js"
+crossorigin="anonymous"
+></script>
+</head>
+<body>
+<div class="grid1">
+<div class="box item1 menuCSS3">
 
-            <select name="Language">
-              <option selected value="0">Language</option>
-              <option value="1">Español</option>
-              <option value="2">Català</option>
-              <option value="3">English</option>
-              <option value="4">Deutsch</option>
-            </select>
-          </div>
-        </div>
-        <div id="logo">
-          <img src=img/tib.jpg>
-          <i id="menu" class="fas fa-bars"></i>
-        </div>
-        <img class="titulo" src="img/titulo.png" />
-      </div>
-      <div class="box item2">
-        <h2>Líneas y Trayectos</h2>
-      </div>
-      <div class="box item3">
-          
-      </div>
-      <div class="box item4">
-        <div>
-          <form class="searchBar" action="#">
-            <input type="text" placeholder="Search.." name="search" />
-            <button type="submit"><i class="fa fa-search"></i></button>
-          </form>
-        </div>
-        <div><img src=img/mapa.jpeg></div>
-      
-    </div></div>
-    <div class="grid2">
-      <div class="box item5"></div>
-      <div class="box item6"></div>
-      <div class="box item7"></div>
-      <div class="box item8"></div>
-    </div>
-  </body>
+<div id="barra_superior">
+<div class="izquierda">
+<img id="user" src=img/user.png height="20px">
+<span> <a href="areaUsuario.html" class="linkUsuario">Área
+de Usuario</a></span>
+</div>
+<div class="derecha">
+<img id="world" src=img/world.png height="20px">
+
+<select name="Language">
+<option selected value="0"> Language </option>
+<option value="1">Español</option>
+<option value="2">Català</option>
+<option value="3">English</option>
+<option value="4">Deutsch</option>
+</select>
+</div>
+</div>
+<div id="logo">
+<img src=img/tib.jpg>
+<i id="menu" class="fas fa-bars"></i>
+
+</div>
+<div>
+<h1 class=titulo>Transportes de Mallorca</h1>
+</div>
+<div id="header"> </div>
+
+
+</div>
+<div class="box item2">
+<h2>Líneas y Trayectos</h2>
+</div>
+<div class="box item3">
+<a href="#" class="active">Zonas</a>
+<a href="#">100</a>
+<a href="#">200</a>
+<a href="#">300</a>
+<a href="#">400</a>
+</div>
+<div class="box item4">
+<div class="searchBar">
+<form class="searchBar" action="#">
+<input type="text" placeholder="Search.." name="search" />
+<button type="submit"><i class="fa fa-search"></i></button>
+</form>
+</div>
+
+<img src=img/mapa.jpeg>
+
+</div></div>
+<div class="grid2">
+<div class="box item5">
+<h3> Horario Binissalem-Palma</h3>
+<div>
+<h6>06:35  07:00  07:25  07:55  08:20  08:45  09:05  09:25  09:45  10:05  10:25  10:45  11:05  11:25  11:45  12:05  12:25  12:45  13:05  13:25  13:45  14:05  14:25  14:45  15:05  15:25  15:45  16:05  16:25  16:45  17:05  17:25  17:45  18:05  18:25  18:45  19:05  19:25  19:45  20:05  20:26  20:51  21:16  21:46</h6>
+</div>
+</div>
+<div class="box item6">
+  <img src="img/trayecto.png">
+</div>
+<div class="box item7">
+<h3> Horario Palma-Binissalem</h3>
+<h6>06:10  06:35  07:00  07:25  07:50  08:15  08:40  09:05  09:30  09:51  10:11  10:31  10:51  11:11  11:31  11:51  12:11  12:31  12:51  13:11  13:31  13:51  14:11  14:31  14:51  15:11  15:31  15:51  16:11  16:31  16:51  17:11  17:31  17:51  18:11  18:31  18:51  19:11  19:31  19:55  20:20  20:45  21:10  21:40</h6>
+
+</div>
+<footer class="box item8">
+<div class="grande">
+<ul>
+<li>Contacto</li>
+<li>Preguntas Frecuentes</li>
+<li>Política de Cookies</li>
+<li>Política de Privacidad</li>
+</ul>
+<div class="redes">
+<a href="https://www.facebook.com/TIBMallorca/"> <i
+class="fab fa-facebook-square"></i></a>
+<a
+href="https://www.instagram.com/transportes_publicos_mallorca/?hl=en"><i
+class="fab fa-instagram"></i></a>
+<a href="https://twitter.com/tib_mallorca?lang=en"> <i
+class="fab fa-twitter-square"></i></a>
+</div>
+</div>
+<div class="pequeño"><small>&copy; Copyright 2021, Joan y Berta</small></div>
+</footer>
+</div>
+</body>
 </html>

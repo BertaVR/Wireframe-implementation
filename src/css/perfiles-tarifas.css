@@ -2,7 +2,7 @@ body {
   margin: 0px;
   border: 2px solid #ccc;
   display: grid;
-  grid-template-rows: 2.5fr 7fr 2.5fr 1fr;
+  grid-template-rows: 350px 7fr 2.5fr 1fr;
   align-content: space-around;
   gap: 20px;
   min-height: 100vh;

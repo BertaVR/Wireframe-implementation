@@ -6,7 +6,7 @@ body {
   border: 2px solid #ccc;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 2.5fr 1fr 2fr 2fr 3fr 1.5fr;
+  grid-template-rows: 350px 1fr 2fr 2fr 3fr 1.5fr;
   align-content: space-around;
   justify-content: space-around;
   min-height: 100vh;
@@ -23,6 +23,8 @@ body {
 }
 
 .item1 {
+  color: #e74438;
+  background-color: #f8efc9;
   display: grid;
   grid-column: 1 / 3;
   grid-template-rows: 25px 1fr 1fr;
