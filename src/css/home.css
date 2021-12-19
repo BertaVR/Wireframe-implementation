@@ -1,4 +1,9 @@
 :root {
+  --main-bg-colorCorp: #156590;
+  --main-bg-colorBarraSuperior: #122f32;
+  --main-bg-colorBarraSuperiorLetra: lightseagreen;
+  --main-bg-colorHeaderFooter: #dcf0e8;
+  
 }
 body {
   margin: 40px;
@@ -6,7 +11,7 @@ body {
   border: 2px solid #ccc;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 350px 1fr 2fr 2fr 3fr 1.5fr;
+  grid-template-rows: 325px 0.7fr 1fr 1fr 1.7fr 220px;
   align-content: space-around;
   justify-content: space-around;
   min-height: 100vh;
@@ -15,16 +20,15 @@ body {
 }
 
 .box {
-  background-color: #444;
-  color: #fff;
-  border-radius: 5px;
+  background-color: #fffbf4;
+  color:var(--main-bg-colorCorp);  border-radius: 5px;
   padding: 20px;
   font-size: 150%;
 }
 
 .item1 {
-  color: #e74438;
-  background-color: #f8efc9;
+  color: var(--main-bg-colorCorp);
+  background-color: var(--main-bg-colorHeaderFooter);
   display: grid;
   grid-column: 1 / 3;
   grid-template-rows: 25px 1fr 1fr;
@@ -32,9 +36,10 @@ body {
 }
 
 .item1 #barra_superior {
+  color:var(--main-bg-colorBarraSuperiorLetra);
   height: 25px;
   display: flex;
-  background-color: rgb(224, 223, 119);
+  background-color: var(--main-bg-colorBarraSuperior);
   margin: 0%;
   justify-content: space-between;
   align-items: flex-start;
@@ -54,16 +59,16 @@ body {
   grid-row: 10fr;
 }
 
-a.linkUsuario:link {
+a .linkUsuario:link {
   font-size: 0.9em;
-  color: rgb(0, 0, 0);
-
   text-decoration: none;
+  color:var(--main-bg-colorBarraSuperiorLetra);
 }
 
 a.linkUsuario:visited {
-  color: black;
+  color:var(--main-bg-colorBarraSuperiorLetra);
 }
+
 
 a.linkUsuario:hover {
   font-weight: bold;
@@ -87,7 +92,7 @@ div#logo {
 i#menu {
 
   font-size: 50px;
-  color: rgb(175, 185, 195);
+  color:var(--main-bg-colorCorp);
   padding-right: 16px;
   padding-top: 10px;
 }
@@ -96,6 +101,10 @@ i#menu {
   grid-column: 1 / 3;
   margin: 10px;
   justify-content: space-around;
+}
+
+.item2 i{
+  color: var(--main-bg-colorCorp);
 }
 
 .no-shrink {
@@ -181,6 +190,7 @@ i#menu {
   font-size: 13pt;
 }
 .item7 {
+  background-color: var(--main-bg-colorHeaderFooter);
   flex-direction: column;
   grid-column: 1 / 3;
   grid-row: 6/7;
@@ -263,7 +273,7 @@ i#menu {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid white;
+  border: 2px solid var(--main-bg-colorCorp);
   height: 120px;
   width: 120px;
 }
@@ -272,9 +282,8 @@ div.transporte {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid white;
   height: auto;
   width: 15%;
   font-size: 2em;
-  border: #fff solid 2px;
+  border: var(--main-bg-colorCorp) solid 2px;
 }
