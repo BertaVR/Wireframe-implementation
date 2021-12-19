@@ -9,6 +9,12 @@
             perfiles y tarifas de los transportes de la tib">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/perfiles-tarifas.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Open+Sans:wght@500&display=swap"
+            rel="stylesheet">
+
         <script
             src="https://kit.fontawesome.com/f995a94cf6.js"
             crossorigin="anonymous"></script>
@@ -18,12 +24,12 @@
 
             <div id="barra_superior">
                 <div class="izquierda">
-                    <img id="user" src=img/user.png height="20px">
-                    <span> <a href=#> Área de Usuario</a></span>
+                    <i class="far fa-user" style="font-size: 20px;"></i>
+                    <span> <a href="areaUsuario.html" class="linkUsuario">Área
+                            de Usuario</a></span>
                 </div>
                 <div class="derecha">
-                    <img id="world" src=img/world.png height="20px">
-
+                    <i class="fas fa-globe" style="font-size: 20px;"></i>
                     <select name="Language">
                         <option selected value="0"> Language </option>
                         <option value="1">Español</option>
@@ -34,16 +40,20 @@
                 </div>
             </div>
             <div id="logo">
-                <img src=img/tib.jpg>
+                <img src=img/tib.png>
                 <i id="menu" class="fas fa-bars"></i>
 
             </div>
-            <img class="titulo" src="img/titulo.png">
-            <div id="header"> Header</div>
+            <div>
+                <h1 class=titulo>Transportes de Mallorca</h1>
+            </div>
+            <div id="header"> </div>
+
 
         </div>
         <main>
-            <h1> Perfiles y tarifas</h1>
+            <div> <h1> Perfiles y tarifas</h1></div>
+
             <div class="perfil-joven box perfil">
 
                 <div class="icono">
@@ -78,11 +88,12 @@
             <div class="perfil-jubilado box perfil">
                 <div class="icono">
                     <i class="fas fa-address-card verde">
-                </i>
+                    </i>
                 </div>
                 <div class="texto">
                     <div class="title">Perfil senior</div>
-                    <div class="subtitle">Para personas jubiladas o mayores de 65 años</div>
+                    <div class="subtitle">Para personas jubiladas o mayores de
+                        65 años</div>
                 </div>
                 <table>
                     <tr>
@@ -105,7 +116,6 @@
                     </tr>
 
                 </table> </div>
-            </div>
             <div class="perfil-general box perfil">
                 <div class="icono">
                     <i class="fas fa-address-card amarillo"></i>
@@ -135,10 +145,9 @@
                     </tr>
 
                 </table> </div>
-            </div>
             <div class="perfil-niño box perfil">
                 <div class="icono">
-                <i class="fas fa-address-card lila"></i>
+                    <i class="fas fa-address-card lila"></i>
                 </div>
                 <div class="texto">
                     <div class="title">Perfil general</div>
@@ -165,11 +174,11 @@
                     </tr>
 
                 </table> </div>
-            </div>
         </main>
         <div class="mapa-saltos box">
             <h2>Mapa de saltos</h2>
-            <img id= "saltos" src="img/saltos.png" alt="mapa de saltos"  onclick="imgWindow(this)">
+            <img id="saltos" src="img/saltos.png" alt="mapa de saltos"
+                onclick="imgWindow(this)">
             <span> (clicka en la imagen para verla en grande)</span>
         </div>
 
@@ -193,6 +202,7 @@
             </div>
             <div class="pequeño"><small>&copy; Copyright 2021, Joan y Berta</small></div>
         </footer>
+
 
 
     </body>
