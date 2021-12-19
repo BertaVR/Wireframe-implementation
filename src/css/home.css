@@ -11,7 +11,7 @@ body {
   border: 2px solid #ccc;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 325px 0.7fr 1fr 1fr 1.7fr 220px;
+  grid-template-rows: 350px 0.7fr 1fr 1fr 1.7fr 220px;
   align-content: space-around;
   justify-content: space-around;
   min-height: 100vh;

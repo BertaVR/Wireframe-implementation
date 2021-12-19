@@ -15,7 +15,7 @@ body{
   border: 2px solid #ccc;
   display: grid;
     grid-template-columns: 30% 70%;
-    grid-template-rows: 325px 1fr 1fr 1fr;
+    grid-template-rows: 350px 1fr 1fr 1fr;
     align-content: space-around;
     justify-content: space-around;
     min-height: 100vh;
@@ -128,7 +128,9 @@ body{
   .item3 a {
     background-color: #eee; 
     color: black;
-    display: block; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
     height: 77%;
     text-decoration: none; 
   }
@@ -138,7 +140,7 @@ body{
   }
   
   .item3 a.active {
-    background-color: #04AA6D; 
+    background-color: var(--main-bg-colorCorp); 
     color: white;
   }
 
