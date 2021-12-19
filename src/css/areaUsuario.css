@@ -74,9 +74,9 @@ a.linkUsuario:hover {
 }
 
 .titulo {
+  text-align: center;
   font-size: 2em;
   font-family: "Open Sans";
-  margin-left: 20px;
 }
 div#logo {
   display: flex;
@@ -88,6 +88,7 @@ div#logo {
 #logo img {
   display: flex;
 }
+h2{color: black;}
 i#menu {
 
   font-size: 50px;
@@ -213,4 +214,5 @@ i#menu {
     display: flex;
     justify-content: flex-end;
     font-size: 13pt;
+
   }

@@ -85,11 +85,10 @@ body{
   }
   
   .titulo {
+    text-align: center;
     font-size: 2em;
     font-family: "Open Sans";
-    margin-left: 20px;
   }
-
   div#logo {
     display: flex;
     size: 20vw;
