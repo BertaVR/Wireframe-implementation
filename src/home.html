@@ -4,10 +4,19 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title><Home</title>
-        <meta name="description" content="Home of Tib">
+        <title>Home</title>
+        <meta name="description" content="Home de la Tib">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./css/home.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Open+Sans:wght@500&display=swap"
+            rel="stylesheet">
+
+        <script
+            src="https://kit.fontawesome.com/f995a94cf6.js"
+            crossorigin="anonymous"></script>
     </head>
     <body>
         <div class="box item1 menuCSS3">
@@ -15,7 +24,8 @@
             <div id="barra_superior">
                 <div class="izquierda">
                     <img id="user" src=img/user.png height="20px">
-                    <span> <a href=#> Área de Usuario</a></span>
+                    <span> <a href="areaUsuario.html" class="linkUsuario">Área
+                            de Usuario</a></span>
                 </div>
                 <div class="derecha">
                     <img id="world" src=img/world.png height="20px">
@@ -30,38 +40,84 @@
                 </div>
             </div>
             <div id="logo">
-                <img  src=img/tib.jpg>
+                <img src=img/tib.jpg>
+                <i id="menu" class="fas fa-bars"></i>
+
             </div>
-            <img class="titulo" src="img/titulo.png">
-            <div id="header"> Header</div>
+            <div>
+                <h1 class=titulo>Transportes de Mallorca</h1>
+            </div>
+            <div id="header"> </div>
 
 
         </div>
         <div class="box item2">
-            <div class="bus">
-                <img class="no-shrink" src="img/bus.png">
-            </div>
-            <div class="metro">
-                <img class="no-shrink" src="img/metro.png">
-            </div>
-            <div class="tren">
-
-                <img class="no-shrink" src="img/tren.png">
-            </div>
+            <div class="box item5 transporte">
+                <i class="fas fa-bus transporte"></i> </div>
+            <div class="box item5 centerIcon transporte">
+                <i class="fab fa-maxcdn transporte"></i> </div>
+            <div class="box item5 centerIcon transporte">
+                <i class="fas fa-train transporte"></i> </div>
         </div>
         <div class="box item3 centerIcon">
+            <span> Recarga de tarjeta </span>
             <div>
                 <i class="fas fa-address-card" style="font-size: 65px;"></i>
             </div>
         </div>
-        <div class="box item4">Four</div>
+        <div class="box item4">
+            <span> Paso por parada </span>
+            <d class="searchBar">
+                <form class="searchBar" action="#">
+                    <input type="text" placeholder="Search.." name="search" />
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+
+        </div>
         <div class="box item5 centerIcon">
+            <span> Consulte las tarifas </span>
             <div>
                 <i class="fas fa-money-bill-wave" style="font-size: 65px;"></i>
             </div>
         </div>
-        <div class="box item6">Six</div>
-        <div class="box item7"><footer>Seven</footer></div>
+        <div class="box item6">
+            <span> Noticias </span>
+
+            <article>
+                <div class="img">
+
+                    <i class="fas fa-arrow-circle-left disabled"></i>
+                    <img src="img/article.jpeg">
+                    <i class="fas fa-arrow-circle-right"></i>
+
+                </div>
+                <p>El Consorci de Transports de Mallorca ha puesto en marcha una
+                    campaña de promoción del transporte público.
+                </p>
+                <a href=#>click para seguir leyendo</a>
+            </article>
+        </div>
+        <footer class="box item7">
+            <div class="grande">
+                <ul>
+                    <li>Contacto</li>
+                    <li>Preguntas Frecuentes</li>
+                    <li>Política de Cookies</li>
+                    <li>Política de Privacidad</li>
+                </ul>
+                <div class="redes">
+                    <a href="https://www.facebook.com/TIBMallorca/"> <i
+                            class="fab fa-facebook-square"></i></a>
+                    <a
+                        href="https://www.instagram.com/transportes_publicos_mallorca/?hl=en"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/tib_mallorca?lang=en"> <i
+                            class="fab fa-twitter-square"></i></a>
+                </div>
+            </div>
+            <div class="pequeño"><small>&copy; Copyright 2021, Joan y Berta</small></div>
+        </footer>
 
 
 

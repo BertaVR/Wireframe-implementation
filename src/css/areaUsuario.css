@@ -99,11 +99,16 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
-      font-size: 65px;
+      flex-direction: column;
    
   }
-
+  .centerIcon span {
+    justify-self: flex-start;
+    text-align: center;
+    padding-bottom: 20px;
+  }
   .centerIcon div{
+    font-size: 65px;
     display: flex;
     justify-content: center;
     align-items: center;
