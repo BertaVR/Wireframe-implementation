@@ -31,8 +31,13 @@ Hemos consultado:
 -[EMT Madrid](https://www.emtmadrid.es/Home)  
 -* Nota: El mapa de saltos de línea lo hemos cogido de [TMB Barcelona](https://www.tmb.cat/es/tarifas-metro-bus-barcelona/sencillos-e-integrados/mapa-zonas)  
 
+# Codigo consultado
+- Hemos cogido el degradado de colores de instagram de [esta página en stack overflow](https://stackoverflow.com/questions/37751375/istagram-new-logo-css-background)
+- Hemos cogido el menú vertical de zonas de [w3schools](https://www.w3schools.com/howto/howto_css_vertical_menu.asp) 
+
  [Link home móvil](https://balsamiq.cloud/sq8utpi/pvmym3o)  
  [Link líneas y horarios](https://balsamiq.cloud/sq8utpi/pjv7le)  
  [Link perfiles y tarifas](https://balsamiq.cloud/sq8utpi/pflnaik)  
  [Link área de usuario](https://balsamiq.cloud/sq8utpi/p9ts2xl)  
  [Link home desktop](https://balsamiq.cloud/sq8utpi/pdg6ej1)  
+
