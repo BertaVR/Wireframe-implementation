@@ -1,3 +1,8 @@
+# Enlaces web
+* [Home](https://heuristic-hoover-8fc77e.netlify.app/)
+* [Lineas y Trayectos](https://heuristic-hoover-8fc77e.netlify.app/lineas-trayectos)
+* [Perfiles y tarifas](https://heuristic-hoover-8fc77e.netlify.app/perfiles-tarifas)
+* [Area usuario](https://heuristic-hoover-8fc77e.netlify.app/areausuario)
 # Estudio usabilidad tib.org
 
 
